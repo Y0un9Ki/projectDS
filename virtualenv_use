@@ -1,0 +1,16 @@
+virtualenv는 Python의 패키지 중 하나로 가상환경을 각각 독립적으로 유지시켜주는 그리고 가상환경을 만들게 해주는 라이브러리이다.
+
+python -m pip install --upgrade pip
+bash에서 pip버전을 업그레이드 하는 명령어이다.
+
+pip install virtualenv
+가상환경을 만들기 위한 명령어를 쓰기 위해 virtualenv 라이브러리를 다운받는다.
+
+python -m virtualenv myenv , virtualenv myenv
+myenv라는 가상환경을 만드는 명령어이다.
+
+source myenv/Scripts/activate
+이 명령어는 myenv라는 가상환경을 실행시키는(활성화하는) 명령어이다.
+
+deactivate
+가상환경을 활성화 시켰으면 원할 때 나갈 수 있어야 하는데 활성화한 가상환경을 나가는 명령어이다.
